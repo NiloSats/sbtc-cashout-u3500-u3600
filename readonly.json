@@ -1,0 +1,6604 @@
+{
+ "3500": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "26669"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "500"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc14aa1c871f54151423988eaae4e16e64153cdd6"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-1"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3501": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "32950"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xe417e56989f396d46adb9a3b8a81bca9164da933"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-1"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3502": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "130607"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xf4c4dcd2c1df9831d24d489a705e1a1f8a8919af"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3503": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "41534"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x855f20eede048dd5623e04dcbc4bb4d81423cec0"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3504": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "42584"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x2f59f6a544f5d742c2bd3d5f3d1770ab492be201"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3505": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "34234"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x7c5b81b7bdd53d87106f2d1812f17de906f7de52"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3506": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "156958"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xed148831faabb7cd6f58bb23f339e08ac827d8f9"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3507": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "35373"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x84cfcd4db8006c825011a4b75a066a2d18f4d4ad"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3508": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "75891"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x4e25d6a808eaf9c0ea28ccdb10e0689dd328fabf"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3509": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "59236"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x4b117f5e443a8e3417684d92299e7242ed4a4362"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3510": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "36105"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x1efbbed4d218b9d8b679201708e21439b2688e7f"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x00"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3511": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "453807"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xade6a28bcf74a8d546fda3df2fb948e4fc0a2401"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3512": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "327549"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xeb78daf00a708d394b7091678309d1247477c5f2"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3513": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "36639"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x573d29c4035daa68c158beb9c9516722d8c3e336"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3514": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "180292"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x262a5479dbf23d964b7ac2a3d820c9425382ebf6"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3515": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "101970"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x892cd1580033932d918510099e24cef940d159a8"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3516": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "47538"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xfa6f791cc49a2e0937ce1032bc2b932d13c4da03"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3517": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "75891"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x8312854e78b88e26b7d44d5c880486c54a85c435"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3518": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "132666"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x858e155704971798ae93f6ffb88b75cd3990a73e"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3519": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "33392"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x3e029801a803eabfd447759518c114cac9e24688"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3520": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "132475"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x2fb06114be52da83a12c5ad1a84ac41d57467d6d"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3521": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "18535"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x3be5b6be1df811035a47a48f51b7b84e670439f8"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3522": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "38958"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x4fc9313dad24575ba535f13fd99eb6c811eecb25"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3523": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "157515"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x8ae58e30d9cc388794fd95169746a4229186050c"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3524": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "121996"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc7607274e0a2efff79d12a51326dad53d42dcbda"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3525": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "57806"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xb01b6d2d7a7311b8196830b46fcb275f25f138cf"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3526": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "85854"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xfe5580c031f89297809937ab06a66559b9461617"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3527": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "79956"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x0689d52e056fc0b21e3e17ab10325abb672c3aa5"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3528": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "75891"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xa205793936aeaa31c2b33f42f82da7bb35bc2ca9"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3529": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "62362"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x332ceb63a262d636eb9e8d9b411e021dcd461add"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3530": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "37239"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x0745f55771891369f32e9bae2ca8ede2daeaf1ac"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3531": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "75891"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x5aea1443f4b72d8dc34641fdd6fa94e5573ed931"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3532": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "46121"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xa757a1fe3dcd3910404d18949050e5e42ade5e4f"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3533": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "75891"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x0e32b16b5328c3eca7d9691ed78c44a117ad8703"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3534": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "83533"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x8a8fd1315a361349c398eff4931b2172966d51b4"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3535": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "59571"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc8fddd16a893d4b61ee9b10531882fb8c8aba01e"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3536": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "58110"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x712126bbd5ec823d6269c5f9f71e48a85fc22dc0"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3537": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "348763"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x4d0c55e1f2a1c2b7a8614e18bf819b46210d55ea"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3538": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "32950"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x17a998607137530f4e647810f355998043a11740"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3539": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "95215"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xa553e8cbeeb69f2b12faea784ded53100f2a7307"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3540": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "136005"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x78c48d24c33cd40ea4aad9c60f67baa59dd3e3f5"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3541": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "58713"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc3069817cacf1266e4adcd409dc14e152738d458"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3542": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "3425607"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x67f1168b7c689b69834d6fffffd511a1da9bb717"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3543": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "675404"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xa333bdb2ba386a45c6e75dadc3292285a783d9ff"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3544": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "73314"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xa1255ff1c799c053579058865e60e1fa1bc3a5b6"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3545": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "108815"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xe451725b7f869ed4193a5a1d965c898bdf1aa3c0"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3546": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "64782"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xf9751f3031ed24461c6d6ecbad595ecfa664a268"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3547": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "67302"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968470"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x933884af32d951784d77f12ff5b9105ff3005413"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001d5783cdd8b21fb7031b0369527fa8aaa56cb5d0fd5b9"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968477"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x0536f3639ff6f6ca11ce228ef9756fe53761fdcdcf28f756a0634ba677aa8021"
+     }
+    }
+   }
+  }
+ },
+ "3548": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "33460"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968472"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x7601f415f2833ef0aa3ff9ee0e72cb08493b71e8"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001624e3eb96aa73479eebae54bacb3e48a2f17b98bb57f"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968479"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x97872d3786aec7fb115ede570c64ce41b77413093e08eadad31f6468b5308a2f"
+     }
+    }
+   }
+  }
+ },
+ "3549": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "140308"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968472"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x9a85d4576ddbf45c67ec0cc44f2ae711471683e2"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP8HK160YD5GHXP69VGA0TC7AQJ1X4CDW3XVERSE.xverse-signer-manager-3"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001624e3eb96aa73479eebae54bacb3e48a2f17b98bb57f"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968479"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x97872d3786aec7fb115ede570c64ce41b77413093e08eadad31f6468b5308a2f"
+     }
+    }
+   }
+  }
+ },
+ "3550": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "973629"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968473"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xec469709a9f316aa4edbb79d4813e1405000d2d0"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP3SB8TPA2S63ZTCXZZF2CETHXQYTV2VTJHQGV678"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001695cd8f55e33230e65610bd0022e2c5e365a1de63fa4"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968480"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x88d03444a6b45d11a6fb11842e7f4d7fd8d3b26825076a4b92c783a9536adb62"
+     }
+    }
+   }
+  }
+ },
+ "3551": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "10099"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968474"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "510"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x5409a1b7dba28b2ff767203a6b1f6081c1fd4170"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP2DETE9T09FCPX5F5SSHQYMFHDAEJS4EVHRZM4YM"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000103e9799fa2b670859fb9cb24a5fb9a4be0ccf439d28"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968481"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xd17b09faa07f2527de9bd94216f924e7685e9ee416778c7d5e334d6664552577"
+     }
+    }
+   }
+  }
+ },
+ "3552": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "90251"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968478"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "1500"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x113b5269d44b1f50250a4d994c58e29ca3dec67c"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP2369QN53586176SYRF4XFGF4E84V0J0EWKRG0ZH.signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001c669418ee8285695f0bb839314ca7dac59c2f9f74d11"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968485"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x373e1a6fe77a7c71c385187358022916882554dd2021ea5f8bc96253a1ee3ad1"
+     }
+    }
+   }
+  }
+ },
+ "3553": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "610723"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968486"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x106a909b2758cde2e1be39b42a70a2de25c466bb"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP3SQR5WA60BYZYYK8D0GRVVG1Q7H7QN9X6CSC3B0"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000f72c181bc42aa1ffec1be7280ca3b30da943c4ebc5d7"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968493"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x7f8c55f84df521104595adc151b4d58ca32bedc4542124fdfd00012f4bba3dde"
+     }
+    }
+   }
+  }
+ },
+ "3554": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "11712"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968509"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x056f7634822af089c509373e6de0078267bcf40e"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1RPGSRHZTN9NQDH2DC1A7PQCTT2RQBSEPKEWBGB"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001c2765d02e10ea0f778633d749f63881e5f085ac89f20"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968518"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x5ed6eab6f3159bb1426506a2805dcbf71c1f26db83f5971a9ea903b3eff9269d"
+     }
+    }
+   }
+  }
+ },
+ "3555": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "120334"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968514"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x802f8081285899b4f96f60f9a7ef4e9fcd6c0d20"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP3XXD4BZW95M2N7XE02CC93SYRJSKV62KWSANEBY"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000001a77b66b5a8815bb5fb4ec19502c22e4732146da23d95"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968521"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x8c6a9c1dd6c34370521051d82d544fb33a30b5e1b633092c25bbe0bf8956b04d"
+     }
+    }
+   }
+  }
+ },
+ "3556": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "709660"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968516"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x7f78b702299ab364b64a5d78790c9ff86faaa4e2"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1XENKCWGQN6JR5NVM27TM5TG8TF20W0182DR66F"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x0000000000000000000199f6d69ce17923b9588fec32925bf12009f3b3cc659a"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968523"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4a0d8977c40a897361ac2a9943a3f29465b87644971d494a7f22b3800b5ed78d"
+     }
+    }
+   }
+  }
+ },
+ "3557": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "509660"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968516"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xf60bafdbe8e7acb118efa3b1de97ac8fc6b618fa"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1YB8026N2G7EPZYEH1G2M5CYS3R8XQSMGB1RVH1"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x0000000000000000000199f6d69ce17923b9588fec32925bf12009f3b3cc659a"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968523"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4a0d8977c40a897361ac2a9943a3f29465b87644971d494a7f22b3800b5ed78d"
+     }
+    }
+   }
+  }
+ },
+ "3558": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "36820"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968516"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "510"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xf3556966c63f53354d9994c487c4271dbdfb6434"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP2M9CQG0JM1XJCXZCFJT0HF5WATH9ME724HVH3KQ"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x0000000000000000000199f6d69ce17923b9588fec32925bf12009f3b3cc659a"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968523"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4a0d8977c40a897361ac2a9943a3f29465b87644971d494a7f22b3800b5ed78d"
+     }
+    }
+   }
+  }
+ },
+ "3559": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "12121"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968523"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x5588dc1238051fbebb415a7ba43bd461a5e96714"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1GCTT4KG0E5BJTPJXQHSH482MCVA2XYXQKV0HQW"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000004b17237ae3548d0c6d4d75593f46f068552a1a7ae55d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968530"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x165972766f49b0757ccd34c96480662273be08430330858a7a3cfc61de560b32"
+     }
+    }
+   }
+  }
+ },
+ "3560": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "28352"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968524"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "1500"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc8c230f4b26b22d177cfae12d3c9947e4b7f0974"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP2HJ2RBVJ7RETRK4K8AYRK5HWY1SQ1EH6JQ2Q8PS"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000c94abd1e4ab6e15611384522c1202f24caf63d187be1"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968531"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x1c62afa153bde02f3c7b1068871f38e35b94b1441dd95b695e0bd7de73a25c83"
+     }
+    }
+   }
+  }
+ },
+ "3561": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "126503"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968527"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "750"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x7b847d77716234fe074c7ea2699d659c5cdf88a8"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMQAMQP7SD25HRENNHHRK38PY5M2AE6SWVZVY56"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000017d3c8161183a37f807023cc4f79053e83d481c861902"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968535"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x1e9c7cd77c06fe3a82d748eb1b49307915a40f9d8bb95412c2103d3ed9ecd022"
+     }
+    }
+   }
+  }
+ },
+ "3562": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "52714"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xb2b464ac28c03f8b116ba0b9461b394138a8d395"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1F3DQH0FDD74YE5DD5HBD08N4ZFDQSWX1M456HV"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000016a5b67707c7c249b1ce17ea2b2197cbbb50392b4643d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4d84763b906a75b3bd80825bc380b0f6e1c9f7e2ecad280c9a63eca26166b74c"
+     }
+    }
+   }
+  }
+ },
+ "3563": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "5297305"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xb56536d640696f9d53fd7cc5a34c5a447de57ce5"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3564": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "4972721"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "4000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x07058b3638fb5d240596cf7bdcbe2f758fc104c3"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3565": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "4660753"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "4000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x07058b3638fb5d240596cf7bdcbe2f758fc104c3"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3566": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "458699"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xdf913b8eaae0a45b87dba817e1fbe27b463677c5"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3567": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "278601"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "4000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x2bf1822f122ff826ecda1eeeaaf22048f5cb5f4d"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3568": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "135773"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc0c35dcbed616fcbb087a0461ab5594fde61aa86"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3569": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "98610"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x3afe01a46253b834aaed6deab5975da54f7197fc"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3570": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "41170"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "5000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x67fee3c3c540b45ce06c15da0e23b67260a4a415"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3571": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "38903"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "5000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x84764121a68c9b43be55bc6e061dbf26d04ac673"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3572": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "38544"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x00f30deab7198f7105b0b8aa9f5f966791eedff3"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3573": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "38672"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "2000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xb64e7b10444adc56b921daf79d1fcbc2607de5da"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000016a5b67707c7c249b1ce17ea2b2197cbbb50392b4643d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4d84763b906a75b3bd80825bc380b0f6e1c9f7e2ecad280c9a63eca26166b74c"
+     }
+    }
+   }
+  }
+ },
+ "3574": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "35065"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x3c7b60bb730e4692f998eca6de631234e4efe7b1"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3575": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "31716"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "5000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xe36376b6861042d1c04c5ffb791bd6fb827e2984"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3576": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "24702"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x87b85c8ecdac6152a9038189666417f29220ffed"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3577": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "22624"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x4119bb6c91f94b569c8e1b56ce52dc5c9aee9a3f"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3578": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "16397"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x664eb0fdf6448ab08d9a32530658f5f0274f4d29"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3579": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "17967"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "500"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x7a0f80df836fd1fdbb5d343ec2f0bd5ef62adaf8"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000016a5b67707c7c249b1ce17ea2b2197cbbb50392b4643d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4d84763b906a75b3bd80825bc380b0f6e1c9f7e2ecad280c9a63eca26166b74c"
+     }
+    }
+   }
+  }
+ },
+ "3580": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "5936"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xf0740a73de47fa25eef8b52310102a23207e206e"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3581": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "11400"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xd8f1235f9aa9dbd498d97cd919d933aba7382b77"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3582": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "10680"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "1000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xbd2c155d1d1c2c9d991484398532d6f60c3cbcb0"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x00"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000016a5b67707c7c249b1ce17ea2b2197cbbb50392b4643d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4d84763b906a75b3bd80825bc380b0f6e1c9f7e2ecad280c9a63eca26166b74c"
+     }
+    }
+   }
+  }
+ },
+ "3583": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "8261"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x3f50d06ffc1355baf317e38184c7e513b4894575"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3584": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "4234"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "5000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x9e0e0ef3b90751f71986a995bed1623588ab5402"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3585": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "15482"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "1000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xce3c8857829f75363c77222144da13e2c72a3ce4"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000016a5b67707c7c249b1ce17ea2b2197cbbb50392b4643d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4d84763b906a75b3bd80825bc380b0f6e1c9f7e2ecad280c9a63eca26166b74c"
+     }
+    }
+   }
+  }
+ },
+ "3586": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "6078"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xb0ecaed92701995314f17bb99ddeebdeaf65f379"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3587": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "3046"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xb90f0162403b42476d3b1076dc89121b5008a464"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3588": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "1617"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xf5db96a02d4911a495d6854acb6364a43c01977a"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3589": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "1314"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3001"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x1fab829651f4f5b05bb4bdef1f0c63a06521cd87"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3590": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "1741"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "3000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xd579cdbe26742efc15d615e21df4f76db6a4ebe1"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x00000000000000000000783051e4a06ed51b2d11670c75bf6df15d688d583c2c"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968538"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0xa5b3834832187372ccbf946245c70e823ec98b3427b889d0efd0d41b95ece6df"
+     }
+    }
+   }
+  }
+ },
+ "3591": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "707"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "5"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x2409faabe712a9367709a28ed2c468f6577234cf"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": false
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional none)",
+   "value": null
+  }
+ },
+ "3592": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "844"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968529"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "10"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xc1ca5e399b4800760ff2744abba20cd796a3111b"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.fastpool-max500-signer-manager"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": false
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional none)",
+   "value": null
+  }
+ },
+ "3593": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "26370"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968534"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x75fd8e516ad2a1362583a404241aeec2169f64f5"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1WEFQ5KDAZ9EW83EWADSYYFS51EVE9KJAGJX5HQ"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": false
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional none)",
+   "value": null
+  }
+ },
+ "3594": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "9660"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "340"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xcab57d3325e457494b5f1ac9392e1953c92cf909"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPWV369J6PBKZTXKMB0WVKG34PZPCWA2P32A6DTY"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": false
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional none)",
+   "value": null
+  }
+ },
+ "3595": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "184441"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968539"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "680"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x5d9d4f2bbf33e10cfca89a6ace0e9da941e9d262"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP1K14H0JHGTPSP7XDTBJQCGR624HAG4HDM2ACAVJ"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000005be72ac464ab110c1aab6d3e70d2e2810fd55ba71d0d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968547"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x07ddaa4873a9c38b849d709e17abbeb6daa1532543c8419bfab91d291fbfdcf8"
+     }
+    }
+   }
+  }
+ },
+ "3596": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "28613"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968540"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "720"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x30f2eda1f70b2f91ac54b4ebb954a79a2bbc55c1"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP3DGCZHS9AZ0T4PSFNXNRXK2GGTK7436E718QTC2"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000005be72ac464ab110c1aab6d3e70d2e2810fd55ba71d0d"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968547"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x07ddaa4873a9c38b849d709e17abbeb6daa1532543c8419bfab91d291fbfdcf8"
+     }
+    }
+   }
+  }
+ },
+ "3597": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "720528"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968542"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "5000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x37c19f385bbc38d1acf51cce12ecb64fa038b20c"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP21EKNCBB37VESYJAZ8MF6XTJ52E62X58J7N4K7G"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x0000000000000000000216e349728f9ad7605ac1df0c602a4df187e9a8b81040"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968549"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x515b2f6d2a3076dee887821a14169ba8d73f335311a9c2d8840e7566619c6793"
+     }
+    }
+   }
+  }
+ },
+ "3598": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "1956507"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968543"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "1000"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0x7e33544a95f56761d5acf967f03f7e208d01f9ac"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPSK4ANDM659GCR4YD05496XMGDVF204RNDE69K.signer-manager-sol"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000004ec895ea6d4b1f2a244725c29fd201fe7e8ed9462f29"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968550"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x85ea0a060a12f5b18358ed380b4763294418a007f0ddc100e7a142693a4060cc"
+     }
+    }
+   }
+  }
+ },
+ "3599": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "85789"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968543"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "850"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xccf12679746e838dfccbfe232b4f863d87925383"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x04"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SPFS6H5SMWZY1N2ZFCK5HR8A5WZ8YWK4MDC6A30K"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000004ec895ea6d4b1f2a244725c29fd201fe7e8ed9462f29"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968550"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x85ea0a060a12f5b18358ed380b4763294418a007f0ddc100e7a142693a4060cc"
+     }
+    }
+   }
+  }
+ },
+ "3600": {
+  "req": {
+   "type": "(optional (tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool))))",
+   "value": {
+    "type": "(tuple (amount uint) (block-height uint) (max-fee uint) (recipient (tuple (hashbytes (buff 20)) (version (buff 1)))) (sender principal) (status (optional bool)))",
+    "value": {
+     "amount": {
+      "type": "uint",
+      "value": "20949"
+     },
+     "block-height": {
+      "type": "uint",
+      "value": "968546"
+     },
+     "max-fee": {
+      "type": "uint",
+      "value": "680"
+     },
+     "recipient": {
+      "type": "(tuple (hashbytes (buff 20)) (version (buff 1)))",
+      "value": {
+       "hashbytes": {
+        "type": "(buff 20)",
+        "value": "0xa5111b3139c8a1b39b1c4d3134a098334c2f0c07"
+       },
+       "version": {
+        "type": "(buff 1)",
+        "value": "0x01"
+       }
+      }
+     },
+     "sender": {
+      "type": "principal",
+      "value": "SP33R3T2NFPZ0K11GT6ESDX8C0ZZXCYQBBF0S84RJ"
+     },
+     "status": {
+      "type": "(optional bool)",
+      "value": {
+       "type": "bool",
+       "value": true
+      }
+     }
+    }
+   }
+  },
+  "sweep": {
+   "type": "(optional (tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32))))",
+   "value": {
+    "type": "(tuple (sweep-burn-hash (buff 32)) (sweep-burn-height uint) (sweep-txid (buff 32)))",
+    "value": {
+     "sweep-burn-hash": {
+      "type": "(buff 32)",
+      "value": "0x000000000000000000001175d7781a81e779cc252292cd20d2e6a5cc1f799bad"
+     },
+     "sweep-burn-height": {
+      "type": "uint",
+      "value": "968554"
+     },
+     "sweep-txid": {
+      "type": "(buff 32)",
+      "value": "0x4a0028cc1218b3bf0020b048548998e1c794de3b50d0212a7ef2deabd795c4a1"
+     }
+    }
+   }
+  }
+ }
+}
